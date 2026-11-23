@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Inter;
+  font-weight: 400 600;
+  src: url("../fonts/inter-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: Montserrat;
+  font-weight: 400 700;
+  src: url("../fonts/montserrat-latin.woff2") format("woff2");
+}
+body {
+  background: #1a2126;
+  color: #f5f2eb;
+  font-family: Inter, sans-serif;
+}
+h1, h2, h3, .brand, .contact {
+  font-family: Montserrat, sans-serif;
+}
+.site-header, .site-footer, .projects, .chart {
+  background: #3a4750;
+}
+.brand, header a, footer a {
+  color: #f5f2eb;
+  text-decoration: none;
+}
+.project-card {
+  background: #1a2126;
+}
+.map-image {
+  height: 280px;
+  object-fit: cover;
+  width: 100%;
+}
+.chart img {
+  max-height: 240px;
+}
